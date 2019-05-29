@@ -1,0 +1,173 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+    <!-- Linha 1 com uma coluna-->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonConectar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:text="Conectar" />
+
+    </TableRow>
+    <!-- Linha 2 com 2 colunas -->
+    <!-- Linha 2 com 3 colunas -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:id="@+id/button0"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/zero"
+            />
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/um"
+            />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/dois"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/tres"
+            />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/quatro"
+            />
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/cinco"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:id="@+id/button6"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/ok"
+            />
+
+        <ImageButton
+            android:id="@+id/button7"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/rock"
+            />
+
+        <ImageButton
+            android:id="@+id/button8"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/rockdois"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:id="@+id/button9"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/hang"
+            />
+
+        <ImageButton
+            android:id="@+id/button10"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/o"
+            />
+
+        <ImageButton
+            android:id="@+id/button11"
+            android:layout_weight="1"
+            android:layout_height="105dp"
+            android:padding="20dip"
+            android:gravity="center"
+            android:src="@drawable/bye"
+            />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Desconectado"
+        />
+
+    <TextView
+        android:id="@+id/configMsg"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:text=""
+        />
+
+</TableLayout>
